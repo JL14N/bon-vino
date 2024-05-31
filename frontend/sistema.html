@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Bon Vino</title>
+</head>
+
+<body onload="pantallaActualizacionVinos.habilitarVentana()">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #4b1b1b !important;" >
+        <div class="container-fluid" >
+            <a class="navbar-brand" href="/PPAI/front-end/index.html" style="font-size: 22px;">Bon Vino</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="font-size: 20px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/PPAI/front-end/sistema.html">Sistema</a></li>
+                            <li><a class="dropdown-item" href="/PPAI/front-end/enofilo.html">Enofilo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section style="margin-top: 4vh;" class="container">
+            <div style="display: flex; justify-content: center; margin-bottom: 4vh;">
+                <h1>Sistema de importación de vinos</h1>
+            </div>
+            <div id="bodegas" style="margin-top: 4vh;">
+            </div>
+            <div style="margin-top: 4vh">
+                <table class="table table-striped rounded">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Varietal</th>
+                            <th scope="col">Añada</th>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Bodega</th>
+                            <th scope="col">Nota</th>
+                            <th scope="col">Maridajes</th>
+                        </tr>
+                    </thead>
+                    <div style="display: flex; justify-content: end;">
+                        <button type="submit" class="btn btn-danger" onclick="cerrarTabla()">Cerrar</button>
+                    </div>
+                    <div style="margin-top: 4vh;">
+                        <tbody id="vinos">
+                        </tbody>
+                    </div>
+                </table>
+            </div>
+        </section>
+    </main>
+    <style>
+        body {
+            background-color: #d7b8b8; 
+        }
+
+        table {
+            border: 1px solid rgba(31, 28, 28, 0.662);
+        }
+
+        th,
+        td {
+            border: 1px solid rgba(131, 77, 77, 0.636);
+            padding: 8px;
+        }
+
+        ;
+    </style>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="./scripts.js"></script>
+
+</html>
