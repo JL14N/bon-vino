@@ -1,0 +1,86 @@
+[
+    {
+        "id": 3,
+        "nombre": "El verdadero",
+        "varietales": [
+            { "descripcion": "afrutado", "porcentaje": "60%", "tipoUva": 3 },
+            { "descripcion": "floral", "porcentaje": "40%", "tipoUva": 4 }
+        ],
+        "añada": 2018,
+        "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg",
+        "precio": 1300.0,
+        "bodega": 3,
+        "nota": "nota3",
+        "maridajes": [2, 4]
+    },
+    {
+        "id": 12,
+        "nombre": "El savaje mamador",
+        "varietales": [
+            { "descripcion": "intenso", "porcentaje": "70%", "tipoUva": 2 },
+            { "descripcion": "afrutado", "porcentaje": "30%", "tipoUva": 3 }
+        ],
+        "añada": 2022,
+        "imagen": "https://superdepaso.com.ar/wp-content/uploads/2024/04/7791540053368.jpg",
+        "precio": 1800.0,
+        "bodega": 3,
+        "nota": "rico",
+        "maridajes": [1, 4]
+    },
+    {
+        "id": 13,
+        "nombre": "Toromelo",
+        "varietales": [
+            { "descripcion": "suave", "porcentaje": "100%", "tipoUva": 1 }
+        ],
+        "añada": 2023,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYM-pTRALyfUroeFFNWbQCnXNzXl2fvqU3Pg&s",
+        "precio": 2000.0,
+        "bodega": 3,
+        "nota": "amargo",
+        "maridajes": [2, 3]
+    },
+    {
+        "id": 14,
+        "nombre": "Terminator blanco",
+        "varietales": [
+            { "descripcion": "fresco", "porcentaje": "50%", "tipoUva": 4 },
+            { "descripcion": "cítrico", "porcentaje": "50%", "tipoUva": 2 }
+        ],
+        "añada": 2021,
+        "imagen": "https://cdn.pixabay.com/photo/2013/07/12/16/28/wine-150955_1280.png",
+        "precio": 2200.0,
+        "bodega": 3,
+        "nota": "delicioso",
+        "maridajes": [1, 2]
+    },
+    {
+        "id": 15,
+        "nombre": "Acatelomamo",
+        "varietales": [
+            { "descripcion": "intenso", "porcentaje": "70%", "tipoUva": 3 },
+            { "descripcion": "afrutado", "porcentaje": "30%", "tipoUva": 1 }
+        ],
+        "añada": 2020,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_808289-MLA50019891358_052022-O.webp",
+        "precio": 1800.0,
+        "bodega": 3,
+        "nota": "feo",
+        "maridajes": [1, 4]
+    },
+    {
+        "id": 16,
+        "nombre": "Reservado",
+        "varietales": [
+            { "descripcion": "suave", "porcentaje": "100%", "tipoUva": 2 }
+        ],
+        "añada": 2023,
+        "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1lb4sXI3JEx4zcnAo28aaNs4Ob_PbJCAe8Q&s",
+        "precio": 2000.0,
+        "bodega": 3,
+        "nota": "más o menos",
+        "maridajes": [2, 3]
+    }
+                    
+    
+]

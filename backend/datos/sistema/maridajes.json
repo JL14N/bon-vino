@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Pollo Frito", 
+        "descripcion": "piezas de pollo empanizado fritas"
+    },
+    {
+        "nombre": "Carnes Rojas", 
+        "descripcion": "Bifes de carne hechos a la parrilla, plancha o horno"
+    },
+    {
+        "nombre": "Pescado a la Parrilla",
+        "descripcion": "Pescado fresco asado con hierbas y especias"
+    },
+    {
+        "nombre": "Quesos Variados",
+        "descripcion": "Selección de quesos duros y blandos"
+    },
+    {
+        "nombre": "Pasta Alfredo",
+        "descripcion": "Pasta con una cremosa salsa de queso parmesano"
+    },
+    {
+        "nombre": "Ensalada Caprese",
+        "descripcion": "Ensalada de tomate, mozzarella y albahaca fresca"
+    },
+    {
+        "nombre": "Jamón Serrano",
+        "descripcion": "Lonchas finas de jamón curado"
+    },
+    {
+        "nombre": "Setas a la Parrilla",
+        "descripcion": "Setas frescas asadas con ajo y perejil"
+    },
+    {
+        "nombre": "Cordero al Horno",
+        "descripcion": "Pierna de cordero asada con romero y ajo"
+    },
+    {
+        "nombre": "Sushi Variado",
+        "descripcion": "Selección de sushi de pescado crudo y mariscos"
+    }
+]

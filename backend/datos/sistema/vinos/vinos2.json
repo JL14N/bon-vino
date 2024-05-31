@@ -1,0 +1,74 @@
+[
+    {
+        "id": 2,
+        "nombre": "Termidor",
+        "varietales": [
+            { "descripcion": "medio fuerte", "porcentaje": "50%", "tipoUva": 2 },
+            { "descripcion": "suave", "porcentaje": "50%", "tipoUva": 3 }
+        ],
+        "añada": 2019,
+        "imagen": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTCH5I3RdmwKdRJBmgfNwtVL-W0Z_lyS-i3sOIN2_1HTNVbEKH1DeSCMJKi3Iw4G7ofd7mqriqjo9nZHxdXLd6jgCMeJcYtsoa8DyFmwpVfUVj8CkGvTZqCAA&usqp=CAE",
+        "precio": 1200.0,
+        "bodega": 2,
+        "nota": "El mejor vino del mundo",
+        "maridajes": [3, 4]
+    },
+    {
+        "id": 5,
+        "nombre": "Villa del valle",
+        "varietales": [
+            { "descripcion": "fuerte", "porcentaje": "70%", "tipoUva": 1 },
+            { "descripcion": "afrutado", "porcentaje": "30%", "tipoUva": 4 }
+        ],
+        "añada": 2017,
+        "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg",
+        "precio": 1600.0,
+        "bodega": 2,
+        "nota": "Mas o menos",
+        "maridajes": [2, 3]
+    },
+    {
+        "id": 9,
+        "nombre": "Mama dorper",
+        "varietales": [
+            { "descripcion": "intenso", "porcentaje": "70%", "tipoUva": 2 },
+            { "descripcion": "afrutado", "porcentaje": "30%", "tipoUva": 3 }
+        ],
+        "añada": 2022,
+        "imagen": "https://borrachines.com.ar/wp-content/uploads/2023/08/santa-filomena-nuevo-mercado.png",
+        "precio": 1800.0,
+        "bodega": 2,
+        "nota": "rico",
+        "maridajes": [1, 4]
+    },
+    {
+        "id": 10,
+        "nombre": "Bosque escondido",
+        "varietales": [
+            { "descripcion": "suave", "porcentaje": "100%", "tipoUva": 1 }
+        ],
+        "añada": 2023,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/664/252/products/keter-tinto-dulce-bajo-grado1-352d5e5ec5a998db3616667135391352-640-0.png",
+        "precio": 2000.0,
+        "bodega": 2,
+        "nota": "amargo",
+        "maridajes": [2, 3]
+    },
+    {
+        "id": 11,
+        "nombre": "Garnacha",
+        "varietales": [
+            { "descripcion": "fresco", "porcentaje": "50%", "tipoUva": 4 },
+            { "descripcion": "cítrico", "porcentaje": "50%", "tipoUva": 2 }
+        ],
+        "añada": 2021,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_832764-MLA43497798098_092020-O.webp",
+        "precio": 2200.0,
+        "bodega": 2,
+        "nota": "delicioso",
+        "maridajes": [1, 2]
+    }
+        
+    
+        
+]

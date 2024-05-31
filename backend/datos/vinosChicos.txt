@@ -1,0 +1,57 @@
+vinos de los chicos
+[
+    {
+        "id": 1,
+        "nombre": "Cavernet Sauvignon",
+        "varietal": "roja",
+        "añada": 5,
+        "imagen": "https://shop.gustoargentino.com/cdn/shop/products/estancia-mendoza-vino-tinto-cabernet-sauvignon-1.jpg?v=1598606566",
+        "precio": 12000,
+        "bodega": 1,
+        "nota": "muy rico",
+        "maridaje": "carnes rojas"
+    },
+    {
+        "id": 2,
+        "nombre": "Malbec reserva",
+        "varietal": "verde",
+        "añada": 8,
+        "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg",
+        "precio": 8500,
+        "bodega": 1,
+        "nota": "agrio",
+        "maridaje": "carnes blancas"
+    },
+    {
+        "id": 3,
+        "nombre": "Bi-varietal Cabernet",
+        "varietal": "negra",
+        "añada": 8,
+        "imagen": "https://acdn.mitiendanube.com/stores/001/318/414/products/emcm1-2b771b9388d9fbcb1616351767341570-640-0.png",
+        "precio": 1700,
+        "bodega": 1,
+        "nota": "fuerte",
+        "maridaje": "pescado"
+    },
+    {
+        "id": 4,
+        "nombre": "Merlot malbec",
+        "varietal": "roja",
+        "añada": 8,
+        "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/573599-8e764512bdf54078a815421169703769-640-0.jpg",
+        "precio": 3000,
+        "bodega": 1,
+        "nota": "muy rico",
+        "maridaje": "mani"
+    }
+]
+[
+    {"id": 5, "nombre": "Norton select Harvest", "varietal": "varietal2", "añada": 8, "imagen": "https://borrachines.com.ar/wp-content/uploads/2023/07/Norton-Select-Harvest-Malbec-750ml-Mercado-Libre-1.png", "precio": 5675, "bodega": 2, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+    {"id": 6, "nombre": "Norton Reserva Malbec", "varietal": "varietal2", "añada": 8, "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/795818-800-600?v=638313501935670000&width=800&height=600&aspect=true", "precio": 8020, "bodega": 2, "region": "cuyo", "provincia": "mendoza", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+    {"id": 7, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 2, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+    {"id": 8, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 2, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"}]
+    [
+        {"id": 9, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 3, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+        {"id": 10, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 3, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+        {"id": 11, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 3, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"},
+        {"id": 12, "nombre": "hola", "varietal": "varietal2", "añada": 8, "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg", "precio": 1000, "bodega": 3, "region": "cuyo", "provincia": "cba", "pais": "arg", "nota": "desc2", "maridaje": "maridaje2"}]

@@ -1,0 +1,55 @@
+[
+    {
+    "id": 1,
+    "nombre": "Toro",
+    "varietales": [
+        { "descripcion": "muy fuerte", "porcentaje": "100%", "tipoUva": 1 }
+    ],
+    "añada": 2020,
+    "imagen": "https://acdn.mitiendanube.com/stores/798/865/products/30280409-d1085f67ed38dffde716639326895645-640-0.jpg",
+    "precio": 1500.0,
+    "bodega": 1,
+    "nota": "nota1",
+    "maridajes": [1, 2]
+},
+{
+    "id": 4,
+    "nombre": "Einstein",
+    "varietales": [
+        { "descripcion": "suave", "porcentaje": "100%", "tipoUva": 2 }
+    ],
+    "añada": 2021,
+    "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ96KK9Hs7OEBfd5l2xFRQJZzR3t4W4ze_aDOluV-zQPgQp9DPbuAfnoFCybo_Nipg9SyDcy6b0EzjeKkXLiDoeOfSsYyc0U9zcn0icbSYgxrO5hzD3D6ZukA&usqp=CAE",
+    "precio": 1400.0,
+    "bodega": 1,
+    "nota": "Preciso",
+    "maridajes": [1, 5]
+    },
+    {
+    "id": 6,
+    "nombre": "Juan",
+    "varietales": [
+        { "descripcion": "intenso", "porcentaje": "70%", "tipoUva": 2 },
+        { "descripcion": "afrutado", "porcentaje": "30%", "tipoUva": 3 }
+    ],
+    "añada": 2022,
+    "imagen": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTPYPw-e5tNsjsD0a7gBhxTsn_5Ji877wVg6nXjHO0_mUQXSdemeFxqRWFLkvTugaMdTYumgSTUtikQtZefXWbD6b6pXt2U&usqp=CAE",
+    "precio": 1800.0,
+    "bodega": 1,
+    "nota": "Feo",
+    "maridajes": [1, 4]
+    },
+{
+    "id": 7,
+    "nombre": "Enzo",
+    "varietales": [
+        { "descripcion": "suave", "porcentaje": "100%", "tipoUva": 1 }
+    ],
+    "añada": 2023,
+    "imagen": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSWqgiKtTFN3DKmEgDMl52QVdZ7VsPOOsL2JmDkZPjKS0CqY3Mo1eEK-oIvEN1HsTPJC9YRs9Bkfa17-F2M4E22cY8pmdZqI0S0KhQ3glD6UFgtcIsUE0UI&usqp=CAE",
+    "precio": 2000.0,
+    "bodega": 1,
+    "nota": "Mas o menos",
+    "maridajes": [2, 3]
+}
+]

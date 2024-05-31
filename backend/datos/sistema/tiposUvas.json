@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Cabernet Sauvignon",
+        "descripcion": "Uva de piel gruesa, conocida por producir vinos con alto contenido de taninos, notas de grosella negra y envejecimiento en roble."
+    },
+    {
+        "nombre": "Merlot",
+        "descripcion": "Uva suave y jugosa, caracterizada por sus sabores a ciruela, cereza negra y hierbas, con taninos más suaves que el Cabernet Sauvignon."
+    },
+    {
+        "nombre": "Chardonnay",
+        "descripcion": "Uva blanca versátil que puede producir vinos con una amplia gama de sabores, desde manzana y pera hasta vainilla y mantequilla, dependiendo del método de fermentación."
+    },
+    {
+        "nombre": "Pinot Noir",
+        "descripcion": "Uva delicada y difícil de cultivar, conocida por sus vinos elegantes con sabores a cereza roja, fresa y tierra, y un cuerpo más ligero."
+    }
+]

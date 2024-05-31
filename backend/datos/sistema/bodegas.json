@@ -1,0 +1,27 @@
+[
+    {
+        "nombre": "Estancia Mendoza",
+        "descripcion": "Leoncio Arizu inaugura la Bodega Luigi Bosca situada en Luján de Cuyo, dando así inicio a una historia signada por la innovación, el crecimiento y una constante búsqueda por lograr la máxima calidad.",
+        "direccion": "Av. San Martín 1600, M1502 Godoy Cruz, Mendoza",
+        "numero": 1,
+        "fecha": "2024-01-03T00:00:00.000Z",
+        "periodicidad": 5
+
+    },
+    {
+        "nombre": "Norton",
+        "descripcion": "Nuestra historia comienza gracias a la figura de 3 emprendedores apasionados, quienes consiguieron derribar obstáculos y alcanzar sus mayores sueños, posicionando así a Norton como una de las bodegas argentinas líderes en el mundo entero",
+        "direccion": "RP15 km 23, M5509 Perdriel, Mendoza",
+        "numero": 2,
+        "fecha": "2022-03-04T00:00:00.000Z",
+        "periodicidad": 1
+    },
+    {
+        "nombre": "Santa Julia",
+        "descripcion": "Julia es la única hija de José Zuccardi. Creada en su honor, Santa Julia representa nuestro compromiso para alcanzar los niveles más altos de calidad, mediante prácticas sustentables que contribuyan al cuidado del medio ambiente y siendo útiles para la comunidad en que vivimos.",
+        "direccion": "RP33 km 7,5, M5531 Maipú, Mendoza",
+        "numero": 3,
+        "fecha": "2024-01-03T00:00:00.000Z",
+        "periodicidad": 5
+    }
+]
