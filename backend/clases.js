@@ -25,49 +25,20 @@ export class Bodega {
         return { nombre: this.#nombre, descripcion: this.#descripcion, direccion: this.#direccion };
     }
 
-    tenesEsteVino(vino) {
-        let tengo = false
-        for (let i = 0; i <this.#vinos.length; i++) {
-            if(this.#vinos[i].existeEsteVino(vino)) {
-                this.#vinos[i].setNotaDeCata(vino.notaDeCata)
-                this.#vinos[i].setPrecio(vino.precio)
-                this.#vinos[i].setImagenEtiqueta(vino.imagenEtiqueta)
-                this.#vinos[i].setFechaActualizacion(vino.fechaActualizacion)
-                tengo = true
-                break
-        }}
+    tenesEsteVino(idVino) {
+        return this.#vinos.has((vino) => vino.sosEsteVino(idVino))
+    };
 
-        return tengo
-    };
-/*
-    actualizarDatosVino(vinoActualizado) {
-        for (let i = 0; i < this.vinos.length; i++) {
-            let vino = this.vinos[i]
-            if (vino.id == vinoActualizado.id) {
-                vino.imagen = vinoActualizado.imagen
-                vino.precioARS = vinoActualizado.precio
-                vino.nota = vinoActualizado.nota
-                vino.maridajes = vinoActualizado.maridaje
-                break
-            }
+    actualizarVino(vino) {
+        this.#vinos.find(sosEsteVino(vino.id)).setNotaDeCata(vino.notaDeCata)
+                                            .setPrecio(vino.precio)
+                                            .setImagenEtiqueta(vino.imagenEtiqueta)
+                                            .setFechaActualizacion(vino.fechaActualizacion)
         }
-    };
-*/
+
     crearVino(vino, maridajes, tiposUva) {
         let nuevoVino = new Vino(vino.id, vino.nombre, vino.aniada, vino.bodega, vino.imagenEtiqueta, vino.notaDeCata, vino.precio, vino.fechaActualizacion, vino.varietales, tiposUva, maridajes);
         this.#vinos.push(nuevoVino)
-    }
-
-    actualizarVino(vino) {
-        this.#vinos.forEach((v, i) => {
-            if (v.sosEsteVino(vino)) {
-               let indice = i
-            }
-        })
-        this.#vinos[indice].setNotaDeCata(vino.notaDeCata)
-        this.#vinos[indice].setPrecio(vino.precio)
-        this.#vinos[indice].setImagenEtiqueta(vino.imagenEtiqueta)
-        this.#vinos[indice].setFechaActualizacion(vino.fechaActualizacion)
     }
 };
 
@@ -86,7 +57,6 @@ export class Vino {
     #varietales
     #maridajes
     
-    // Constructor
     constructor(id, nombre, aniada, bodega, imagenEtiqueta, notaDeCata, precio, fechaActualizacion, varietales, tiposUva, maridajes) {
         this.#id = id
         this.#nombre = nombre
@@ -102,69 +72,22 @@ export class Vino {
         this.#precio = precio
         this.#fechaActualizacion = fechaActualizacion
     }
-    // Set y Gets
 
-    set setId(valor) {
-        this.#id = valor
-    }
-    get getId() {
-        return this.#id
-    }
-    set setNombre(valor) {
-        this.#nombre = valor
-    }
-    get getNombre() {
-        return this.#nombre
-    }
-    set setAniada(valor) {
-        this.#aniada = valor
-    }
-    get getAniada() {
-        return this.#aniada 
-    }
-    set setBodega(valor) {
-        this.#bodega = valor
-    }
-    get getBodega() {
-        return this.#bodega 
-    }
-    set setImagenEtiqueta(valor) {
-        this.#imagenEtiqueta = valor
-    }
-    get getImagenEtiqueta() {
-        return this.#imagenEtiqueta
-    }
-    set setNotaDeCata(valor) {
-        this.#notaDeCata = valor
-    }
-    get getNotaDeCata() {
-        return this.#notaDeCata
-    }
-    set setPrecio(valor) {
-        this.#precio = valor
-    }
-    get getPrecio() {
-        return this.#precio
-    }
-    set setFechaActualizacion(valor) {
-        this.#fechaActualizacion = valor
-    }
-    get getFechaActualizacion() {
-        return this.#fechaActualizacion
-    }
-
-    // Metodos 
-    sosEsteVino(vino) {
-        let soy = false
-        if(this.id = vino.id) {
-            soy = true
-        }
-        return soy
+    sosEsteVino(idVino) {
+        return idVino = this.#id
     }
 
     #crearVarietal(objVarietal, tipoUva) {
         return new Varietal(objVarietal.descripcion, objVarietal.porcentaje, tipoUva)
     }
+
+    setNotaDeCata(valor) { this.#notaDeCata = valor; return this }
+
+    setPrecio(valor) { this.#precio = valor; return this }
+
+    setImagenEtiqueta(valor) { this.#imagenEtiqueta = valor; return this }
+
+    setFechaActualizacion(valor) { this.#fechaActualizacion = valor; return this }
 }
 
 export class Varietal {

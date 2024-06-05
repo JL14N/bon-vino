@@ -25,19 +25,21 @@ class GestorActualizacionVinos {
     }
 
     #actualizarOCrearVinos() {
-        this.#vinosAPI.foreach((vino) => {
-            if (this.#verificarVinoExistente(vino.id)) {
-                this.#actualizarVinoExistente(vino)
+        this.#vinosAPI.foreach((vinoAPI) => {
+            if (this.#verificarVinoExistente(vinoAPI.id)) {
+                this.#actualizarVinoExistente(vinoAPI)
+            } else {
+                maridaje = this.#buscarMaridaje()
             }
         })
     }
 
-    #actualizarVinoExistente() {
-        
+    #verificarVinoExistente(idVinoAPI) {
+        return this.#bodegaElegida.tenesEsteVino(idVinoAPI)
     }
 
-    #verificarVinoExistente(idVino) {
-        return this.#bodegaElegida.tenesEsteVino(idVino)
+    #actualizarVinoExistente() {
+        this.#bodegaElegida.actualizarVino(vinoAPI)
     }
     
     #buscarBodegasParaActualizar() {
