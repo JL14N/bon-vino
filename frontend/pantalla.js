@@ -57,7 +57,7 @@ class PantallaActualizacionVinos {
                         <h3 class="card-title">${bodega.nombre}</h3>
                         <h5 class="card-title">${bodega.descripcion}</h5>
                         <h5 class="card-title">${bodega.direccion}</h5>
-                        <button type="button" class="btn btn-success" onclick="tomarBodegaSeleccionada(${bodega.numero})">Actualizar vinos</button>
+                        <button type="button" class="btn btn-success bodega" data-number="${bodega.numero}">Actualizar vinos</button>
                         </div>
                     </div>
                     `
@@ -65,10 +65,21 @@ class PantallaActualizacionVinos {
                 })
             }
     }
-    // Hacer metodo Solicitar Bodegas????
+    
+    async solicitarBodegas() {
+        const numBodega = await this.tomarBodegaSeleccionada()
+        gestorActualizacionVinos.tomarBodegaSeleccionada(numBodega)
+    }
 
-    tomarBodegaSeleccionada(num, nombreBodega) {
-        gestorActualizacionVinos.tomarBodegaSeleccionada(nombreBodega)
+    tomarBodegaSeleccionada() {
+        return new Promise((resolve) => {
+            const elements = document.getElementsByClassName('bodega')
+            Array.from(elements).forEach(element => {
+                element.addEventListener('click', (event) => {
+                    resolve(event.target.dataset.number)
+                })
+            });
+        });
         /*
         fetch(`${urlSis}/actualizarVinosBodega`, {
             method: 'POST',
